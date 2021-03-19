@@ -1,0 +1,9 @@
+net:
+   bindIp: localhost,tyk-mongo
+   port: 27017
+   tls:
+      mode: requireTLS
+      certificateKeyFile: test-server1.pem
+      CAFile: test-ca.pem
+storage:
+   dbPath: "data"
